@@ -1,16 +1,1 @@
-email                      : johndoe@gmail.com
-password                      : johjjones
-|--------------- I N F O | I P -------------------|
-IP Address	                       : 
-Browser		                       : Chrome on Windows 10
-User Agent	                       : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
-email                      : johndoe@gmail.com
-password                      : johjjones
-|--------------- I N F O | I P -------------------|
-IP Address	                       : 
-Browser		                       : Chrome on Windows 10
-User Agent	                       : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36
-<?php 
-    if (isset($_GET['ReasonCode'])) {
-        $ReasonCode = isset($_GET['ReasonCode']) ? trim(htmlentities($_GET['ReasonCode'])):'';
-    }?>
+
