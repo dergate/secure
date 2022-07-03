@@ -613,8 +613,6 @@
 <form action='main.php' novalidate id="frmLogin" method="POST">
 <div class='input-group'>
 <div class="input-wrapper ">
-
-
 <input type="email" id="txtEmail" name="email" placeholder="example@email.com" required autocomplete="off" autofocus="autofocus" maxlength="254" />
 <label for="txtEmail">Email</label>
 <span class="bar"></span>
