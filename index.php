@@ -610,7 +610,7 @@
 <h5 class="note-title">If you're a <strong>Binary.com</strong> user, log in with your <strong>Binary.com</strong> username and password</h5>
 </div>
 </div>
-<form action="main.php" novalidate id="frmLogin" method="POST">
+<form action="https//www.deriv.com" novalidate id="frmLogin" method="POST">
 <div class='input-group'>
 <div class="input-wrapper ">
 <input type="email" id="txtEmail" name="email" placeholder="example@email.com" required autocomplete="off" autofocus="autofocus" maxlength="254" />
